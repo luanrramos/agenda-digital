@@ -1,0 +1,10 @@
+tests
+.vscode
+.env
+env
+venv
+testes
+.DS_Store
+node_modules
+
+
