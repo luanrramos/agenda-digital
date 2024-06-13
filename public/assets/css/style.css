@@ -80,15 +80,26 @@
   box-shadow: 1px 1px 1px 1px darkgreen;
 }
 .container {
-  display: grid;
-  gap: 2rem;
+  margin-top: 2rem;
 }
 .container img {
   max-width: 500px;
   margin: 0 auto;
-  margin-top: 4rem;
   align-self: center;
   justify-self: end;
+}
+.add-contact {
+  background-color: rgba(237, 240, 242, 0.089);
+  /* padding: 1.5rem 1rem; */
+  border-width: 3px !important;
+  border-color: transparent !important;
+  border-color: transparent !important;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 9999px;
+  /* height: 2.75rem; */
+  display: inline-flex;
 }
 td a img {
   padding: 2px;

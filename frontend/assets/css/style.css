@@ -38,7 +38,7 @@
   align-items: center;
 }
 .logo img {
-  max-width: 100px;
+  max-width: 100%;
 }
 .menu-container {
   height: 3.5rem;
