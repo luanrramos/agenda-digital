@@ -22,12 +22,12 @@ class Login {
     this.user = await LoginModel.findOne({ email: this.body.email });
 
     if(!this.user) {
-      this.errors.push("usuario ou senha não existe")
+      this.errors.push("Usuário ou senha não existe!")
       return;
     }
 
     if(!bcryptjs.compareSync(this.body.password, this.user.password)) {
-      this.errors.push("usuario ou senha não existe")
+      this.errors.push("Usuário ou senha não existe!")
       this.user = null
       return;
     }
@@ -48,18 +48,18 @@ class Login {
 
   async userExists() {
     this.user = await LoginModel.findOne({ email: this.body.email });
-    if (this.user) this.errors.push("Usuario Já Existe");
+    if (this.user) this.errors.push("Usuario já existe!");
   }
 
   validate() {
     this.cleanUp();
 
     if (!validator.isEmail(this.body.email)) {
-      this.errors.push("E-mail invalido");
+      this.errors.push("E-mail inválido");
     }
 
     if (this.body.password.length < 6 || this.body.password.length > 20) {
-      this.errors.push("A senha precisa está entre 6 e 20 caracteres");
+      this.errors.push("A senha precisa está entre 6 e 20 caractéres");
     }
   }
 

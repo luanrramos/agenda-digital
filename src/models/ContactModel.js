@@ -26,16 +26,12 @@ class Contact {
   async register() {
     this.validate();
 
-  //  this.contactExists();
 
     if (this.errors.length > 0) return;
 
     this.contact = await ContactModel.create(this.body);
   }
-/*
-  async contactExists() {
-   
-  } */
+
 
   validate() {
     this.cleanUp();

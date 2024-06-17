@@ -90,7 +90,6 @@
 }
 .add-contact {
   background-color: rgba(237, 240, 242, 0.089);
-  /* padding: 1.5rem 1rem; */
   border-width: 3px !important;
   border-color: transparent !important;
   border-color: transparent !important;
@@ -98,7 +97,6 @@
   padding-right: 1.5rem;
   padding: 0.6rem 1.25rem;
   border-radius: 9999px;
-  /* height: 2.75rem; */
   display: inline-flex;
 }
 td a img {

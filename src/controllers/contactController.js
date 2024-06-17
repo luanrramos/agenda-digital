@@ -80,7 +80,7 @@ exports.edit = async (req, res) => {
       return;
     }
   
-    req.flash("success", "contato alterado com sucesso");
+    req.flash("success", "Contato alterado com sucesso!");
     req.session.save(() => {res.redirect("/")});
     return
 
@@ -100,7 +100,7 @@ exports.delete = async (req, res) => {
       const contact = await Contact.delete(req.params.id)
       if(!contact) return res.render("404")
       
-      req.flash("success", "contato apagado com sucesso");
+      req.flash("success", "Contato apagado com sucesso!");
       req.session.save(() => {res.redirect("/")});
       return
  }
