@@ -1,7 +1,7 @@
 ## Desafio - Aplicação AgendaCom
+<img width="205px" src="public/assets/github-imgs/3.png" alt="Texto Alternativo">ㅤㅤㅤㅤㅤㅤ
 <img width="200px" src="public/assets/github-imgs/2.png" alt="Texto Alternativo">ㅤㅤㅤㅤㅤㅤ
-<img width="205px" src="public/assets/github-imgs/3.png" alt="Texto Alternativo">ㅤㅤㅤㅤ
-<img width="200px" src="public/assets/github-imgs/iphone1.png" alt="Texto Alternativo">ㅤㅤ
+<img width="200px" src="public/assets/github-imgs/iphone1.png" alt="Texto Alternativo">ㅤㅤㅤㅤㅤㅤ
 <img src="public/assets/github-imgs/web.png" alt="Texto Alternativo">
 ## Tecnologias 
 
