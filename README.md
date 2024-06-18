@@ -1,3 +1,8 @@
+## Desafio - Aplicação AgendaCom
+<img width="200px" src="public/assets/github-imgs/iphone1.png" alt="Texto Alternativo">ㅤㅤ
+<img width="200px" src="public/assets/github-imgs/2.png" alt="Texto Alternativo">ㅤㅤ
+<img width="205px" src="public/assets/github-imgs/3.png" alt="Texto Alternativo">
+<img src="public/assets/github-imgs/web.png" alt="Texto Alternativo">
 ## Tecnologias 
 
 - [Node](https://nodejs.org/en)
@@ -72,11 +77,11 @@ Por fim, rode
 
 1. Porque eu decidi utilizar essas tecnologias como parte da solução
 
-- Baseado nas orientações, utilizei Node e Express  para o desenvolvimento de um back-end robusto. Para o banco de dados, optei pelo MongoDB, pois já possuo afinidade com ele e webpack para realizar o bundle dos arquivos. Essa abordagem me permitiu aplicar conhecimentos existentes enquanto aprendia novas tecnologias.
+- Baseado nas orientações, utilizei Node e Express para o desenvolvimento de um back-end robusto. Para o banco de dados, optei pelo MongoDB, pois já possuo afinidade com ele e webpack para realizar o bundle dos arquivos. Essa abordagem me permitiu aplicar conhecimentos existentes enquanto aprendia novas tecnologias.
 
 2. Qual foi a funcionalidade diferencial do seu projeto
 
-- Além do que foi pedido no desafio, implementei um simples sistema de autenticação com cadastro e login de usuários, além de um proteção de senhas utilizando um sistema de criptografia de senhas utilizando o algoritmo hash da biblioteca Bcryptjs.
+- Além do que foi pedido no desafio, implementei um simples sistema de autenticação com cadastro e login de usuários, além de uma proteção de senhas com um sistema de criptografia de senhas utilizando o algoritmo hash, da biblioteca Bcryptjs.
 
 3. O que eu faria a mais se tivesse mais tempo?
 
